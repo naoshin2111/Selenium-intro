@@ -19,5 +19,7 @@ public class StaticDropDown {
         System.out.println(dropdown.getFirstSelectedOption().getText());
         dropdown.selectByVisibleText("AED");
         System.out.println(dropdown.getFirstSelectedOption().getText());
+        dropdown.selectByValue("INR");
+        System.out.println(dropdown.getFirstSelectedOption().getText());
     }
 }
